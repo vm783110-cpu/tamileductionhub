@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3point_traders</title>
+    
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1515609920261196'); // Updated Pixel ID
+    fbq('track', 'PageView');
+
+    function trackLead() {
+        fbq('track', 'Lead');
+    }
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1515609920261196&ev=PageView&noscript=1"
+    /></noscript>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #050a30 0%, #000c66 50%, #7ec8e3 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #111827;
+            width: 90%;
+            max-width: 400px;
+            padding: 40px 20px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .logo-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #fff;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .bio-text {
+            font-size: 14px;
+            color: #49dcb1;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Blinking Animation for Button */
+        @keyframes blink {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.05); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, #7cf0e5, #49dcb1);
+            color: #000;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 40px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 25px;
+            gap: 10px;
+            animation: blink 1.5s infinite; /* Button Blinking */
+            transition: transform 0.2s;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        .footer-text {
+            font-size: 13px;
+            color: #9ca3af;
+        }
+
+        /* Kunal link style */
+        .kunal-link {
+            color: #49dcb1;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 1px dashed #49dcb1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <h1>3point_traders</h1>
+    <div class="bio-text">The official channel 3point_traders</div>
+
+    <div class="info-list">
+        <div>முடியும் வரை முயற்சி செய்!!</div>
+        <div><strong>TRAINED 4000+ STUDENTS</strong></div>
+        <div style="margin-top: 10px;">Made by 30🤓</div>
+        <div>| Learn | Practice | Earn |</div>
+    </div>
+
+    <a href="https://t.me/+XTZpHxU_5MdmODk1" onclick="trackLead()" class="btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="25" alt="TG Logo">
+        Join Telegram
+    </a>
+
+    <div class="footer-text">
+        &copy; 2026 Day Trader | Ads Managed by 
+        <a href="https://t.me/+jE7sEbzR23gwM2U1" class="kunal-link">Kunal</a>
+    </div>
+</div>
+
+</body>
+</html>
